@@ -1,6 +1,7 @@
 body{
     margin: 0;
     text-align: center;
+    overflow: hidden;
 }
 
 .container{
@@ -16,17 +17,19 @@ body{
     background-position: center center;
     width: 50%;
     height: 100%;
-    transition: width 2s;
+    transition: all 2s;
 }
 
 
 .ps5-color{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: auto;
     color: white;
     font-weight: bold;
+    white-space: nowrap;
     font-size: 1.25em;
     width: 100%;
     height: 100%;
@@ -40,16 +43,18 @@ body{
     background-position: center center;
     width: 50%;
     height: 100%;
-    transition: width 2s;
+    transition: all 2s;
 }
 
 .xbox-color{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: auto;
     color: white;
     font-weight: bold;
+    white-space: nowrap;
     font-size: 1.25em;
     width: 100%;
     height: 100%;
